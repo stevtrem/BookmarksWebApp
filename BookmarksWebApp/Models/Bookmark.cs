@@ -8,6 +8,8 @@ namespace BookmarksWebApp.Models
 {
     public class Bookmark
     {
+        // prop
+        // ctor
         [Key]
         public int Id { get; set; }
         [Required]
