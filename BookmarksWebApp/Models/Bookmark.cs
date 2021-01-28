@@ -15,5 +15,10 @@ namespace BookmarksWebApp.Models
         [Required]
         [Url]
         public string Url { get; set; }
+
+        public Bookmark()
+        {
+
+        }
     }
 }
